@@ -15,9 +15,9 @@ public class IterateList {
         //Please implement Anonymous class to iterate through
         System.out.println("Using Anonymous class");
 
-        
-        //Please implement lambda expression to iterate through electronicsList
 
+        //Please implement lambda expression to iterate through electronicsList
+        electronicsList.forEach(K -> System.out.println(K));
 
 
         System.out.println("Lambda Expression");
