@@ -15,9 +15,11 @@ public class IterateList {
         //Please implement Anonymous class to iterate through
         System.out.println("Using Anonymous class");
 
-
-
+        
         //Please implement lambda expression to iterate through electronicsList
+
+
+
         System.out.println("Lambda Expression");
 
 
@@ -31,6 +33,7 @@ public class IterateList {
 
         //Please implement stream iteration through electronicsList
         System.out.println("iterate using Stream for each loop");
+        electronicsList.stream().forEach(item -> System.out.println(item));
     }
 
 }
